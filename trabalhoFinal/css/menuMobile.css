@@ -1,0 +1,91 @@
+nav > ul#menu {
+    display: flex;
+    list-style: none;
+}
+nav > button#btn-mobile {
+    display: none;
+}
+/* Menu responsivo: */
+@media (max-width: 600px) {
+    nav button#btn-mobile {
+        color: var(--cor2);
+        display: flex;
+        padding: 10px 15px;
+        font-size: 1.1em;
+        border: none;
+        background: none;
+        cursor: pointer;
+    }
+    nav span#hamburguer {
+        color: var(--cor4);
+        margin-right: 10px;
+        width: 20px;
+        border-top: 2px solid;
+    }
+    nav span#hamburguer::after, nav span#hamburguer::before {
+        content: '';
+        display: block;        
+        width: 20px;
+        height: 2px;
+        background: currentColor;
+        margin-top: 5px;
+        transition: .3s;
+        position: relative;
+    }
+    nav.active span#hamburguer {
+        border-top: transparent;
+    }
+    nav.active span#hamburguer::before {
+        transform: rotate(135deg);
+    }
+    nav.active span#hamburguer::after {
+        transform: rotate(-135deg);
+        top: -7px;
+    }
+    nav ul#menu {
+        display: block;
+        position: absolute;
+        width: 100%;
+        right: 0px;
+        margin-top: 7px;
+        background-color: var(--cor1);
+        z-index: 1000;
+        transition: .6s;
+        height: 0px;
+        visibility: hidden;
+        overflow-y: hidden;
+    }
+    nav.active > ul#menu{
+        height: 423px;
+        visibility: visible;
+        overflow-y: auto;
+    }
+    nav > ul#menu a{
+        padding: 20px;
+        border-radius: 0px;
+        border-bottom: 2px solid var(--corSombra);
+    }
+    nav.active > ul#menu a:hover {
+        font-size: 1.2em;
+        background: transparent;
+        background-image: linear-gradient(to right, var(--cor2), transparent);
+    }
+    nav > ul#menu > li a.login:hover {
+        color: var(--cor0);
+        background-image: linear-gradient(to right, var(--cor4), transparent);
+    }
+    main > article h2 {
+        background: var(--cor8);
+        border-radius: 7px;
+    }
+    main > article h2.h2NBA {
+        background-color: var(--cor2);
+    }
+    main > article p {
+        margin: 7px;
+    }
+    main > article p.link {
+        text-align: left;
+    }
+}
+/*===========================================================================*/

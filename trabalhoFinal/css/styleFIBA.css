@@ -1,0 +1,63 @@
+body {
+    background-color: var(--cor15);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor13), var(--cor14));
+}
+nav {
+    background-color: var(--cor14);
+}
+nav > ul > li > a {
+    color: var(--cor0);
+}
+nav > ul > li > a.login {
+    color: var(--cor0);
+}
+nav > ul > li > a:hover {
+    background-color: var(--cor4);
+}
+nav > ul > li > a.login {
+    color: var(--cor0);
+}
+
+main > article > h1 {
+    color: var(--cor13);
+}
+main > article > h2 {
+    background-image: linear-gradient(to right, transparent, var(--cor13) 35%, transparent);
+}
+main > article > h3 {
+    color: var(--cor13);
+}
+main > article p strong {
+    color: var(--cor13);
+}
+main > article > picture > img.bolaFIBA {
+    display: block;
+    border-radius: 15px 15px 0px 0px;
+    width: 50%;
+    margin: auto;
+}
+main > article > h3.legendaFIBA {
+    font-size: 0.9em;
+    color: var(--cor0);
+    width: 50%;
+    margin: auto;
+    margin-bottom: 27px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    background-color: var(--cor14);
+}
+main > aside {
+    background-color: var(--cor13);
+}
+main > aside > h3 {
+    background-color: var(--cor14);
+}
+main > aside ul > li > a {
+    color: var(--cor0);
+}
+footer {
+    background-color: var(--cor13);
+}

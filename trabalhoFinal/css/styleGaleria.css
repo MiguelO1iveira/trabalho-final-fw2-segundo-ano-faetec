@@ -1,0 +1,214 @@
+ul#galeria{
+max-width:950px;
+min-width:250px;
+margin:auto;
+overflow: hidden;
+list-style: none;
+}
+ul#galeria li{
+float: left;
+width: 200px;
+height: 200px;
+margin: 10px;
+border: 3px solid #FFFFFF;
+background-color: #FFFFFF;
+box-shadow: 1px, 1px, 3px rgba(0,0,0,.4);
+-webkit-transition: all .4s ease-in;
+}
+ul#galeria li span{
+opacity: 0;
+color: #FFFFFF;
+text-shadow: 1px 1px 1px #000000;
+background-color: #000000;
+font-size: 9pt;
+line-height: 300px;
+padding: 5px;
+}
+ul#galeria li:hover span{
+opacity: 1;
+}
+ul#galeria li:hover{
+ -webkit-transform: scale(1.1);
+}
+
+
+ul#galeria li#foto1{
+background: url('../imagens/index/bannerIndex.jpg') no-repeat;
+background-position: 50% 50%;
+background-size: 400px 400px;
+background-color: #FFFFFF;
+}
+ul#galeria li#foto1:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto2{
+    background: url('../imagens/index/criadorBasquete.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto2:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto3{
+    background: url('../imagens/NBA/NBA.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto3:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto4{
+    background: url('../imagens/NBA/nba-oeste-2020-21.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto4:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto5{
+    background: url('../imagens/NBA/nba-leste-2020-21.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto5:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto6{
+    background: url('../imagens/FIBA/fibajogadores.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+    }
+ul#galeria li#foto6:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto7{
+    background: url('../imagens/FIBA/disputadebolafiba.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto7:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto8{
+    background: url('../imagens/FIBA/BolaFIBA.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto8:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto9{
+    background: url('../imagens/NBB/nbbwpp.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto9:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto10{
+    background: url('../imagens/NBB/copasuper8.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto10:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto11{
+    background: url('../imagens/NBB/playoffsnbb.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto11:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto12{
+    background: url('../imagens/Regras/cristianoarbitragembasquete.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto12:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto13{
+    background: url('../imagens/Regras/andreiaarbitragembasquete.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto13:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto14{
+    background: url('../imagens/Regras/arbitros-nba.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto14:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto15{
+    background: url('../imagens/Regras/arbitro1.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto15:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto16{
+    background: url('../imagens/NBA/nba-logo.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto16:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto17{
+    background: url('../imagens/FIBA/fibalogo.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: black;
+}
+ul#galeria li#foto17:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}
+ul#galeria li#foto18{
+    background: url('../imagens/NBB/NBB-logo.png') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: #FFFFFF;
+}
+ul#galeria li#foto18:hover{
+background-position: 0px 0px;
+background-size: 195px 195px;
+}

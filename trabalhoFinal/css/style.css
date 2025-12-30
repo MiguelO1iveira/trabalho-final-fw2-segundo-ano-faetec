@@ -1,0 +1,266 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "NBA";
+    src: url("../fontes/Horrible-Jefe/Horrible\ Jefe.ttf") format("opentype");
+}
+:root {
+    /*Cores Principais:*/
+    --cor0: white;
+    --cor1: #ececec;
+    /*Cores Pagina NBA:*/
+    --cor2: #006bb6;
+    --cor3: #f5f5f5;
+    --cor4: #ed174c;
+    --cor5: #c21440;
+    --cor6: #002d81;
+    --cor7: #f14671;
+    /*Cores Pagina Index:*/
+    --cor8: #ff7e2d;
+    --cor9: #FF230D;
+    --cor10: #ffe4c4;
+    --cor11: #ff8337;
+    --cor12: #B34400;
+    /*Cores Pagina FIBA:*/
+    --cor13: #1a1a1a;
+    --cor14: black;
+    --cor15: rgb(184, 182, 182);
+    /*Cores Pagina NBB:*/
+    --cor16: #4fc94d;
+    --cor17: #3caa36;
+    --cor18: #fecc00;
+    --cor19: #e4bd24;
+    --cor20: #2c4477;
+    --cor21: #F24C00;
+    --cor22: #8fff8b;
+    
+    --corSombra: #00000025;
+}
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: var(--cor3);
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor0) 30%, var(--cor1));
+    height: 200px;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 40px;
+}
+nav {
+    height: 40px;
+    background-color: var(--cor1);
+    padding: 10px;
+    box-shadow: 0px 3px 3px var(--corSombra);
+}
+
+nav > ul > li > a {
+    display: block;
+    margin-right: 7px;
+    color: var(--cor2);
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition-duration: .2s;
+}
+
+nav > ul > li > a:hover{
+    color: var(--cor0);
+    background: var(--cor2);
+}
+nav > ul > li a.login {
+    color: var(--cor4);
+    margin-right: 10px;
+}
+nav > ul > li a.login:hover {
+    color: var(--cor0);
+}
+nav span {
+    width: 65%;
+}
+
+
+main {
+    background-color: var(--cor0);
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    margin-top: 0.4px;
+    margin-bottom: 30px;
+    padding: 20px;
+    box-shadow: 0px 0px 2px var(--corSombra);
+    border-radius: 0px 0px 10px 10px;
+}
+main > article > picture > img {
+    width: 100%;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    
+}
+main hr {
+    color: var(--corSombra);
+}
+main > article > picture > img.imgConteudo {
+    width: 70%;
+    display: block;
+    margin: 40px auto 0px auto;
+    border-radius: 15px 15px 0px 0px;
+}
+main > article > h3.legenda {
+    font-size: 0.9em;
+    color: var(--cor11);
+    width: 70%;
+    margin: auto;
+    margin-bottom: 27px;
+    padding: 10px 0px;
+    text-align: center;
+    border-radius: 0px 0px 15px 15px;
+    background-color: var(--cor10);
+}
+main > article > h1 {
+    font-family: "NBA";
+    font-size: 3em;
+    text-align: center;
+    color: var(--cor4);
+    margin-bottom: 20px;
+    letter-spacing: 1.8px;
+}
+main > article > h2 {
+    background-image: linear-gradient(to right, transparent, var(--cor8) 35%, transparent);
+    text-align: center;
+    color: var(--cor0);
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 7px 0px 0px 7px;
+    margin-bottom: 17px;
+}
+ul#regra li{
+padding: 5px;
+}
+main > article >  h3 { 
+    text-align: center;
+    font-size: 1.2em;
+    padding: 5px;
+    padding-left: 10px;
+    border-radius: 7px 0px 0px 7px;
+    color: var(--cor6);
+    margin-bottom: 17px;
+}
+main > article >  p {
+    text-align: justify;
+    text-indent: 4em;
+    margin: 0px 35px;
+    margin-bottom: 20px;
+}
+main > article >  h2.conteudo {
+    background: transparent;
+    text-align: center;
+    color: var(--cor2);
+}
+
+main > article > p > strong {
+    color: var(--cor11);
+}
+main > article p abbr::after {
+    content: '\1f4ad';
+}
+main > article > p > a {
+    color: var(--cor12);
+    font-weight: bold;
+    padding: 10px;
+    text-decoration: none;
+}
+main > article > p > a::after {
+    content: '\1f517';
+}
+
+main > aside {
+    background-color: var(--cor10);
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px var(--corSombra);
+    width: 70%;
+    margin: auto;
+}
+main > aside > h3 {
+    text-align: center;
+    font-size: 1.2em;
+    background-color: var(--cor12);
+    color: white;
+    padding: 10px;
+    border-radius: 10px 10px 0px 0px;
+}
+main > aside ul{
+    columns: 4;
+    list-style: none;
+    margin: auto;
+    margin-top: 50px;
+    display: block;
+    width: 60%;
+}
+@media (max-width: 600px) {
+    main > aside ul {
+        columns: 2;
+        width: 200px;
+    }
+}
+main > aside ul > li {
+    margin-bottom: 70px;
+}
+main > aside ul > li > a {
+    text-decoration: none;
+    color: var(--cor12);
+    font-weight: bold;
+    padding: 30px 30px;
+    border-radius: 20px;
+    transition: .6s;
+}
+main > aside ul > li > a:hover {
+    border: 1px solid var(--cor2);
+    font-size: 1.25em;
+}
+main > aside ul > li > a#NBB:hover {
+    background-color: #4fc94d;
+    color: var(--cor0);
+    background-image: url("../imagens/NBB/NBB_Link.png");
+    background-repeat: no-repeat;
+}
+main > aside ul > li > a#NBA:hover {
+    border-color: var(--cor4);
+    background-color: var(--cor2);
+    color: var(--cor0);
+    background-image: url("../imagens/NBA/Jordan-76x76.png");
+    background-repeat: no-repeat;
+}
+main > aside ul > li > a#FIBA:hover {
+    background-color: black;
+    color: var(--cor0);
+    background-image: url("../imagens/FIBA/fibalogo-141x76.png");
+    background-repeat: no-repeat;
+}
+main > aside ul > li > a#Regras:hover {
+    background-color: black;
+    color: var(--cor0);
+    background-image: url("../imagens/Regras/apito-137x76.png");
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: var(--cor4);
+    color: var(--cor0);
+    text-align: center;
+    font-size: 0.8em;
+    padding: 10px;
+}
+footer > p a {
+    color: var(--cor0);
+    text-decoration: none;
+    font-weight: bold;
+}
+footer > p a:hover {
+    color: var(--cor2);
+    text-decoration: underline;
+}

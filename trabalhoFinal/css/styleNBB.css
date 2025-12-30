@@ -1,0 +1,48 @@
+body {
+    background-color: var(--cor22);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor16), var(--cor18));
+}
+nav {
+    background-color: var(--cor18);
+}
+nav > ul > li > a {
+    color: var(--cor20);
+}
+nav > ul > li > a.login {
+    color: var(--cor20);
+}
+
+main > article img {
+    display: block;
+    max-width: 80%;
+    margin: auto;
+}
+main > article > h1 {
+    color: var(--cor20);
+}
+main > article > h2 {
+    background-image: linear-gradient(to right, transparent, var(--cor18), transparent);
+}
+main > article > h3 {
+    color: var(--cor20);
+}
+main > article > p > strong {
+    color: var(--cor20);
+}
+
+main > aside {
+    background-color: var(--cor22);
+}
+main > aside > h3 {
+    background-color: var(--cor19);
+}
+main > aside ul > li > a {
+    color: var(--cor0);
+}
+
+
+footer {
+    background-color: var(--cor19);
+}

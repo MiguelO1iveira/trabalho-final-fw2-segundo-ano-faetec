@@ -1,0 +1,47 @@
+body {
+    background-color: var(--cor3);
+}
+header {
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1));
+}
+
+
+nav {
+    background-color: var(--cor1);
+}
+nav > ul > li > a {
+    color: var(--cor2);
+}
+nav > ul > li > a:hover {
+    color: var(--cor0);
+    background-color: var(--cor2);
+}
+nav > ul > li > a.login {
+    color: var(--cor4);
+}
+nav > ul > li > a.login:hover {
+    color: var(--cor0);
+}
+
+main > article > h1 {
+    color: var(--cor2);
+}
+main > article > h2 {
+    background-image: linear-gradient(to right, transparent, var(--cor2), transparent);
+}
+main > article p strong {
+    color: var(--cor2);
+}
+
+main > aside {
+    background-color: var(--cor2);
+}
+main > aside > h3 {
+    background-color: var(--cor4);
+}
+main > aside ul > li > a {
+    color: var(--cor0);
+}
+footer {
+    background-color: var(--cor4);
+}

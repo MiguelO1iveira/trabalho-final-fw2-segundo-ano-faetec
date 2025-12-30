@@ -1,0 +1,17 @@
+@media (max-width: 600px) {
+    nav button#btn-mobile {
+        color: var(--cor0);
+    }
+    nav span#hamburguer {
+        color: var(--cor4);
+    }
+    nav ul#menu {
+        background-color: var(--cor14);
+    }
+    nav > ul#menu a{
+        border-bottom: 2px solid var(--cor15);
+    }
+    main > article > h2 {
+        background-color: var(--cor14);
+    }
+}
