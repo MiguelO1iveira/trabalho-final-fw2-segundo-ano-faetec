@@ -206,7 +206,7 @@ ul#galeria li#foto18{
     background: url('../imagens/NBB/NBB-logo.png') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
-    background-color: white;
+    background-color: #FFFFFF;
 }
 ul#galeria li#foto18:hover{
 background-position: 0px 0px;
